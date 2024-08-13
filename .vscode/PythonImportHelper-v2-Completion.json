@@ -1,0 +1,19 @@
+[
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "route",
+        "description": "route",
+        "peekOfCode": "spark = SparkSession.builder.appName(\"CSV Reader\").getOrCreate()\nspark.stop()",
+        "detail": "route",
+        "documentation": {}
+    }
+]
